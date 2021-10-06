@@ -20,7 +20,7 @@ app = MultiPage()
 st.set_page_config(page_icon=None,layout="wide")
 
 # Title of the main page
-display = Image.open('Logo.png')
+display = Image.open('logo.png')
 display = np.array(display)
 # st.image(display, width = 400)
 # st.title("Data Storyteller Application")
